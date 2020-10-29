@@ -1,8 +1,71 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import '../js/index.css';
+
+.app-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 999;
+    background-color: #282c34;
+    opacity: 0.9;
+    font-size: 3rem;
+  }
+.d-none{
+  display: none;
+}
+.admin-nav{
+  box-sizing: border-box;
+  box-shadow: 8px 2px 34px -12px black;
+}
+.admin-nav ul{
+  list-style: none;
+}
+.admin-nav ul li{
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+.imgPreview{
+  padding: 15px;
+  text-align: center;
+}
+.add_imagem{
+  width: 35%;
+    margin: auto;
+}
+.filters .list-group{
+  max-height: 300px;
+    overflow: auto;
+}
+.loader svg{
+  margin: auto; 
+  background: none; 
+  display: block; 
+  shape-rendering: auto;
+  width: 100%;
+    position: absolute;
+    z-index: 30;
+}
+.loader{
+  width: 100%;
+    background: #f8fafc;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+}
+.my-profile{
+  padding: 10px 0px;
+}
